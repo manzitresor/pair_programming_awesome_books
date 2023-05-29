@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  gap: 1px;
+  width: 300px;
+}
+
+#books {
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+  margin-top: 5px;
+}
+
+p,
+button {
+  font-weight: bold;
+}
