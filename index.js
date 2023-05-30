@@ -6,21 +6,22 @@ class awesomeBooks {
   title;
 
   author;
-  /* eslint-disable */
+
   constructor() {
     this.books = [];
-    this.booksContainer = document.getElementById("books");
-    this.title = document.getElementById("title");
-    this.author = document.getElementById("author");
+    this.booksContainer = document.getElementById('books');
+    this.title = document.getElementById('title');
+    this.author = document.getElementById('author');
   }
 
+  // eslint-disable-next-line class-methods-use-this
   localBooks(books) {
-    const storage = JSON.parse(localStorage.getItem("Books"));
+    const storage = JSON.parse(localStorage.getItem('Books'));
     return storage || books;
   }
 
   displayBooks(booksList) {
-    this.booksContainer.innerHTML = "";
+    this.booksContainer.innerHTML = '';
     for (let i = 0; i < booksList.length; i += 1) {
       this.booksContainer.innerHTML += `
             <br>
@@ -39,10 +40,10 @@ class awesomeBooks {
         title: this.title.value,
         author: this.author.value,
       });
-      localStorage.setItem("Books", JSON.stringify(this.books));
+      localStorage.setItem('Books', JSON.stringify(this.books));
       this.displayBooks(this.localBooks(this.books));
-      this.title.value = "";
-      this.author.value = "";
+      this.title.value = '';
+      this.author.value = '';
     }
   }
   /* eslint-disable */
@@ -58,3 +59,8 @@ class awesomeBooks {
     return this.displayBooks(this.localBooks(books));
   }
 }
+const awesome_books = new awesomeBooks();
+awesome_books.removeItem();
+document.getElementById("add").addEventListener("click", () => {
+  awesome_books.adding();
+});
