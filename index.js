@@ -1,4 +1,4 @@
-class awesomeBooks {
+class AwesomeBooks {
   books;
 
   booksContainer;
@@ -14,8 +14,8 @@ class awesomeBooks {
     this.author = document.getElementById('author');
   }
 
-  // eslint-disable-next-line class-methods-use-this
   localBooks(books) {
+    books = this.books;
     const storage = JSON.parse(localStorage.getItem('Books'));
     return storage || books;
   }
@@ -26,7 +26,7 @@ class awesomeBooks {
       this.booksContainer.innerHTML += `
             <br>
             <div class="main-div">  <p class="pargraph-books">"${booksList[i].title}" by ${booksList[i].author}</p>
-            <div class="buton-books"> <button  id="remove${i}" onclick="awesome_books.removeItem(${i})" >Remove</button><br/></div> 
+            <div class="buton-books"> <button  id="remove${i}" onclick="awesomeBook.removeItem(${i})" >Remove</button><br/></div> 
             <br/></div>
           `;
     }
@@ -46,21 +46,21 @@ class awesomeBooks {
       this.author.value = '';
     }
   }
-  /* eslint-disable */
+
   removeItem(items) {
     if (items !== undefined) {
       const localItem = this.localBooks(this.books);
       const removedItem = localItem.filter(
-        (item) => item.id !== localItem[items].id
+        (item) => item.id !== localItem[items].id,
       );
-      localStorage.setItem("Books", JSON.stringify(removedItem));
-      return this.displayBooks(this.localBooks(books));
+      localStorage.setItem('Books', JSON.stringify(removedItem));
+      return this.displayBooks(this.localBooks(this.books));
     }
-    return this.displayBooks(this.localBooks(books));
+    return this.displayBooks(this.localBooks(this.books));
   }
 }
-const awesome_books = new awesomeBooks();
-awesome_books.removeItem();
-document.getElementById("add").addEventListener("click", () => {
-  awesome_books.adding();
+const awesomeBook = new AwesomeBooks();
+awesomeBook.removeItem();
+document.getElementById('add').addEventListener('click', () => {
+  awesomeBook.adding();
 });
