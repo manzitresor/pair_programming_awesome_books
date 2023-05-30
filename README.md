@@ -1,86 +1,157 @@
+# awesome_books# Awesome-books
 
 <a name="readme-top"></a>
 
-<div align="center">
+<!-- TABLE OF CONTENTS -->
 
-  <h3><b> Awesome Books</b></h3>
+# 📗 Table of Contents
 
-</div>
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books <a name="about-project"></a>
+# 📖 Awesome-books <a name="about-project"></a>
 
- "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, I'm learning how to manage data using JavaScript.
+**Awesome-books** this is a website that help family and people to spend time together watching birds and enjoying the wildness
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with"> </a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML and Javascript Languages
-
 <details>
-  <summary>Client</summary>
+  <summary>Html</summary>
   <ul>
-    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
+
 <details>
-  <summary>Functionality</summary>
+  <summary>Css</summary>
   <ul>
-    <li><a href="https://www.javascripttutorial.net/">Javascript</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- Add New Book 
-- Remove Any Book
+
+- **[book library]**
+- **[add button]**
+- **[remove button]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link]()
+  <br>
+- <a href="">Loom presentation</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-1. Latest version of your browser
-2. Code Editor
-
 <!--
 Example command:
-
 ```sh
  gem install rails
 ```
  -->
 
+A working connection and a coding editor like visual studio code
+
 ### Setup
 
 Clone this repository to your desired folder:
 
-Run this command
-
+<!--
+Example commands:
 ```sh
-  cd Folder_Name
-  git clone https://github.com/manzitresor/awesome_books.git
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 ```
+--->
+
+Use git push at your desired location and use the command git clone and paste the URL
 
 ### Install
 
 Install this project with:
 
+<!--
+Example command:
 ```sh
-  cd awesome_books
-  npm install
+  cd my-project
+  gem install
 ```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+```sh
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,11 +159,15 @@ Install this project with:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Manzi Tresor
+👤 ** Safari Hamuli **
 
-- GitHub: [@githubhandle](https://github.com/manzitresor)
-- Twitter: [@githubhandle](https://twitter.com/MANZITresor3)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/manzi-tresor-783b4022a/)
+- GitHub: [@Manzi Tresor ](https://github.com/manzitresor)
+
+👤 **kerlos-bahaa**
+
+- GitHub: [@githubhandle](https://github.com/kerlos-bahaa)
+- Twitter: [@twitterhandle](https://twitter.com/KerlosBahaa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kerlos-bahaa-457a8925a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,11 +175,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Features to be added in this project include.
-
-- Navigation
-- some styles
-
+- **[Add a second page file ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +185,7 @@ Install this project with:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/manzitresor/awesome_books/issues">issues page</a>
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,9 +193,7 @@ Feel free to check the <a href="https://github.com/manzitresor/awesome_books/iss
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project,
-- You can follow me on Github <a href ="https://github.com/manzitresor">[@githubhandle]</a> 
-- You can give me a star ⭐ to this project.
+If you like this project...you can visit us at GitHub: [@kerlos bahaa](https://github.com/kerlos-bahaa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,11 +201,19 @@ If you like this project,
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse community.
+I would like to thank...
+
+- To coding partner GitHub: [@Manzi Tresor ](https://github.com/manzitresor)
+
+- Creative Commons license of the design
+- I would like to thanks all my coding partners at Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
-This project is [MIT](./LICENSE) licensed.
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
