@@ -1,4 +1,4 @@
-# awesome_books# Awesome-books
+# Awesome-books
 
 <a name="readme-top"></a>
 
@@ -159,7 +159,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 ** Safari Hamuli **
+👤 **Manzi Tresor**
 
 - GitHub: [@Manzi Tresor ](https://github.com/manzitresor)
 
@@ -203,7 +203,7 @@ If you like this project...you can visit us at GitHub: [@kerlos bahaa](https://g
 
 I would like to thank...
 
-- To coding partner GitHub: [@Manzi Tresor ](https://github.com/manzitresor)
+- To coding partner GitHub
 
 - Creative Commons license of the design
 - I would like to thanks all my coding partners at Microverse
