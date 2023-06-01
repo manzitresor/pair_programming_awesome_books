@@ -8,14 +8,47 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="main">
-      <h1>Awesome books</h1>
-      <div id="books"></div>
-      <br />
-      <input type="text" id="title" placeholder="Title" /><br />
-      <input type="text" id="author" placeholder="Author" /><br />
-      <button id="add">Add</button>
+    <header>
+      <div class="logo">Awesome Books</div>
+      <nav>
+        <a id="listLink">List</a>
+        <a id="inputLink">Add new</a>
+        <a id="contactLink">Contact</a>
+      </nav>
+    </header>
+    <div class="main" id="main">
+      <div id="bookList">
+        <h1>All Awesome books</h1>
+        <div id="books"></div>
+      </div>
+      <div id="bookInput">
+        <h2>Add a new book</h2>
+       <form id="form">
+        <input type="text" id="title" placeholder="Title" /><br />
+        <input type="text" id="author" placeholder="Author" /><br />
+        <button id="add">Add</button>
+      </form>
+      </div>
+      <section id="contactInfo">
+        <h1 class="h1-contact">Contact information</h1>
+        <div class="container">
+          <p>
+            Do you have any questions or you just want to say "Hello" <br />
+            you can reach out to us!
+          </p>
+          <div class="ul-div">
+            <ul>
+              <li>Our email mai@mail.com</li>
+              <li>Our phone number:015547835353</li>
+              <li>Our address streatname22.85042 city ,country</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
+    <footer>
+      <div class="copyright">Copyright &nbsp;&nbsp;&nbsp; .....</div>
+    </footer>
   </body>
   <script src="index.js"></script>
 </html>

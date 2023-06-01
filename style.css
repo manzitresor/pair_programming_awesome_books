@@ -11,6 +11,40 @@ body {
   justify-content: center;
 }
 
+/* navgation  */
+header {
+  display: flex;
+  margin-top: -80px;
+  margin-bottom: 30px;
+  width: 90%;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.logo {
+  padding-left: 20px;
+  font-weight: bolder;
+  color: black;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px solid;
+  border-color: transparent transparent transparent black;
+  padding-left: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+/* main  */
 .main {
   display: flex;
   flex-direction: column;
@@ -18,6 +52,10 @@ body {
   gap: 1px;
   width: 600px;
   align-items: center;
+}
+
+#bookList {
+  width: 100%;
 }
 
 #books {
@@ -37,7 +75,11 @@ hr {
   flex-direction: row;
   align-items: center;
   padding: 10px;
-  background-color: #8080803d;
+  background-color: rgb(148, 146, 146);
+}
+
+.main-div:nth-child(odd) {
+  background-color: white;
 }
 
 .buton-books {
@@ -48,8 +90,9 @@ hr {
 }
 
 .buton-books button {
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: black;
+  padding: 5px;
 }
 
 .pargraph-books {
@@ -66,13 +109,72 @@ hr {
 #author {
   border: 2px solid black;
   width: 30%;
-  margin-top: -10px;
+  margin-top: 15px;
 }
 
 #add {
-  margin-left: 152px;
-  background-color: green;
-  padding: 3px;
-  color: white;
+  margin-top: 20px;
+  margin-left: 250px;
+  background-color: white;
+  padding: 7px;
+  color: black;
   font-weight: bold;
+}
+
+/* section */
+section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1-contact {
+  padding: 35px;
+}
+
+.container p {
+  padding-bottom: 20px;
+}
+
+.ul-div {
+  padding-left: 45px;
+}
+
+/* copyright */
+footer {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  border: 2px solid black;
+  margin-top: 316px;
+  padding-left: 15px;
+}
+
+#bookInput {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#form {
+  padding: 40px;
+}
+
+#form input {
+  width: 50%;
+  padding: 5px;
+  border-radius: 4px;
 }
