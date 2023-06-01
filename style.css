@@ -78,6 +78,10 @@ hr {
   background-color: rgb(148, 146, 146);
 }
 
+.main-div:nth-child(odd){
+  background-color: white;
+}
+
 .buton-books {
   width: 100%;
   display: flex;
