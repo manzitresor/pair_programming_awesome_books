@@ -78,7 +78,7 @@ hr {
   background-color: rgb(148, 146, 146);
 }
 
-.main-div:nth-child(odd){
+.main-div:nth-child(odd) {
   background-color: white;
 }
 
